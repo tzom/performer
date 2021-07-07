@@ -32,7 +32,8 @@ from tensorflow.python.keras import regularizers
 from tensorflow.python.keras.engine.base_layer import Layer
 from tensorflow.keras.activations import softmax
 from tensorflow.python.keras.layers import core
-from tensorflow.python.keras.layers import einsum_dense
+#from tensorflow.python.keras.layers import einsum_dense
+from performer.networks import einsum_dense 
 from tensorflow.python.keras.utils import tf_utils
 from tensorflow.python.ops import array_ops
 from tensorflow.python.ops import math_ops
